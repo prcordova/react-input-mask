@@ -23,7 +23,7 @@ const App: React.FC = () => {
   return (
     <div>
       <Input placeholder="99999-9999" name="cep" mask="cep" onChange={handleChange} /> 
-      <Input prefix="R$" placeholder="price"  name="price" mask="price" onChange={handleChange} /> 
+      <Input prefix="USD" placeholder="price"  name="price" mask="price" onChange={handleChange} /> 
       <Input   placeholder="phone"  name="phone" mask="phone" onChange={handleChange} /> 
       <Input   placeholder="cpf"  name="cpf" mask="cpf" onChange={handleChange} /> 
       <Input   placeholder="cnpj"  name="cnpj" mask="cnpj" onChange={handleChange} /> 
